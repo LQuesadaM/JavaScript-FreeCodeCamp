@@ -19,9 +19,8 @@ Dado que las cadenas son inmutables, el método split facilita el trabajo con el
 function splitify(str) {
     // Cambia solo el código debajo de esta línea
     console.log(str.split(/\W/))
-  
     // Cambia solo el código encima de esta línea
   }
   
-  splitify("Hello World,I-am code");
+  //splitify("Hello World,I-am code");
   splitify("Earth-is-our home")
