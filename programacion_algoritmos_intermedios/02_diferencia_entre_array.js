@@ -9,7 +9,6 @@ Compara dos arreglos y devuelve un nuevo arreglo con los elementos que sólo se 
 function diffArray(arr1, arr2) {
     const newArr = [...arr1, ...arr2];
     const filterArray = newArr.filter( x => arr1.indexOf(x) === -1 || arr2.indexOf(x) === -1)
-    
     return filterArray
   }
   
